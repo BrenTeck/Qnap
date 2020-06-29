@@ -1,0 +1,20 @@
+#qnap
+sensor:
+  - platform: qnap
+    host: 192.168.x.xx
+    port: xxx #only needed if you chage default ports
+    ssl: true #only needed if you enable ssl
+    verify_ssl: false #only needed if you use no signed ssl (Let's Encrypt)
+    username: !secret qnapUSERNAME
+    password: !secret qnapPASSWORD
+    monitored_conditions:
+      - status
+      - cpu_usage
+      - memory_percent_used
+      - network_tx
+      - volume_percentage_used
+      - system_temp #not supported with TS412
+      - cpu_temp
+      - drive_temp
+      - drive_smart_status
+#endQnap
