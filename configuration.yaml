@@ -13,8 +13,8 @@ sensor:
       - memory_percent_used
       - network_tx
       - volume_percentage_used
-      - system_temp #not supported with TS412
-      - cpu_temp
+      - system_temp
+      - cpu_temp #not supported with TS412
       - drive_temp
       - drive_smart_status
 #endQnap
