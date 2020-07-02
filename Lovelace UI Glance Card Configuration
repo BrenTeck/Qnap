@@ -1,16 +1,20 @@
 entities:
   - entity: sensor.nameOfNAS_status
+  - entity: sensor.nameOfNAS_smart_status_drive_1
+  - entity: sensor.nameOfNAS_network_link_eth0
+  - entity: sensor.nameOfNAS_network_link_eth1
   - entity: sensor.nameOfNAS_cpu_usage
   - entity: sensor.nameOfNAS_memory_usage
-  - entity: sensor.nameOfNAS_network_up_eth0
-  - entity: sensor.nameOfNAS_network_up_eth1
   - entity: sensor.nameOfNAS_volume_used_volume_1
-  - entity: sensor.nameOfNAS_cpu_temperature
   - entity: sensor.nameOfNAS_system_temperature
   - entity: sensor.nameOfNAS_temperature_drive_1
-  - entity: sensor.nameOfNAS_smart_status_drive_1
+  - entity: sensor.nameOfNAS_network_up_eth0
+  - entity: sensor.nameOfNAS_network_up_eth1
+  - entity: sensor.nameOfNAS_network_down_eth0
+  - entity: sensor.nameOfNAS_network_down_eth1
 show_icon: true
 show_name: false
 show_state: true
 title: Qnap
 type: glance
+
