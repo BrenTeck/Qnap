@@ -11,10 +11,12 @@ sensor:
       - status
       - cpu_usage
       - memory_percent_used
+      - network_link_status
       - network_tx
+      - network_rx
       - volume_percentage_used
       - system_temp
-      - cpu_temp #not supported with TS412
+#      - cpu_temp #not supported with TS412
       - drive_temp
       - drive_smart_status
 #endQnap
